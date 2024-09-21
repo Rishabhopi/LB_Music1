@@ -32,7 +32,7 @@ from BrandrdXMusic.utils.decorators.userbotjoin import UserbotWrapper
 from BrandrdXMusic.utils.database import get_assistant, is_active_chat
 
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("rephho") & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/cc290ee58069d09a1ade7.jpg",
@@ -49,7 +49,7 @@ async def repo(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("repo") & filters.group)
+@Client.on_message(filters.command("rbvvepo") & filters.group)
 async def help(client: Client, message: Message):
 
     await message.reply_photo(
@@ -67,7 +67,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@Client.on_message(filters.command("repo") & filters.private)
+@Client.on_message(filters.command("rephbo") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
          photo=f"https://graph.org/file/cc290ee58069d09a1ade7.jpg",
